@@ -1,0 +1,28 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    h1{
+        color:darkslategray;
+        font: size 20px;;
+    }
+    
+    h2{
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+    
+    body{
+        background-image: url(../Cifrado/Imagenes/6fae3885f99b470b38126384b2cea0aa.jpeg);
+        background-size:cover;
+        color: black;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        align-content: center;
+        
+    }
+    
+

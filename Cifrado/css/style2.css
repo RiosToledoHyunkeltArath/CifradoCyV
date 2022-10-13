@@ -1,0 +1,17 @@
+
+
+body{
+    background-image: url(../Imagenes/eb1b48da078e01de2acd48e67c3189fa.jpeg);
+    background-size: cover;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+        
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+

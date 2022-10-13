@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="./css/style2.css">
+    <link rel="stylesheet" href="./css/css/bootstrap.min.css">
+    <title>Cifrados</title>
+</head>
+<body class="text-white">
+
+    <div class="m-container">
+        <div class="h1">Cifrados</div>
+        <div class="h4 mb-5">Escoge un cifrado para un texto</div>
+
+        <div class="row mt-5">
+            <div class="col d-flex justify-content-center"><button id="btnCesar" class="btn btn-light">Cesar</button></div>
+            <div class="col d-flex justify-content-center"><button id="btnViggenere" class="btn btn-light">Viggenere</button></div>
+        </div>
+ 
+        <section class="secCes my-5" id="secCes" style="display: none;">
+
+            <input class="form-control my-2" type="text" name="cadena" id="cadena" placeholder="Mensaje">
+            <input class="form-control my-2"  type="number" name="desp" id="desp" placeholder="Desplazamiento">
+            <input class="form-control my-2"  type="button" value="Cifrar" onclick="cifrar()">
+            <input class="form-control my-2"  type="button" value="Descifrar" onclick="descifrar()">
+
+        </section>
+        <section class="secVig my-5" id="secVig" style="display: none;">
+
+            <input type="text" class="form-control my-2" id="mess" placeholder="Mensaje">
+            <input type="text" class="form-control my-2" id="llave" placeholder="Llave">
+            <input type="button" class="form-control my-2" id="#ci" value="Cifrar">
+            <input type="button" class="form-control my-2" id="#de" value="Descifrar">
+
+        </section>
+
+        <div id="pantalla" class="h5">
+
+        </div>
+
+    </div>
+
+    
+    <script src="./JS/menu.js"></script>
+    <script src="./JS/cesar.js" type="text/Javascript"></script>
+    <script src="./JS/viggenere.js" type="text/Javascript"></script>
+</body>
+</html>
